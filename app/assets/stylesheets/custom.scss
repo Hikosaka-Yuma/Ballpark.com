@@ -112,7 +112,7 @@ body {
 }
 
 .picture {
-  width:400px;
+  width:350px;
   height:300px;
 }
 
@@ -124,6 +124,37 @@ body {
   font-size:20px;
 }
 
-.comment p {
-  text-align:center;
+.subcomment {
+  font-size:12px;
+  display:inline-block;
+  padding-top:20px;
+}
+
+
+/*user new html の記述*/
+
+.form-control {
+  height: 45px;
+}
+
+.users-new-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color:white;
+  
+  .users-new-container {
+    padding-top: 220px;
+
+  .form-group {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+/* ユーザー登録のアラート*/
+.alert {
+  margin-bottom: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
 }
